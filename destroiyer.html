@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="shortcut icon" href="/img/red%20head.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</head>
+<body>
+      <script type="text/javascript">
+               $(document).ready(function(){
+                   $("#menu").on("click","a", function (event) {
+                       event.preventDefault();
+                       var id  = $(this).attr('href'),
+                           top = $(id).offset().top;
+                       $('body,html').animate({scrollTop: top}, 1500);
+                   });
+               });
+    </script>
+   <nav id="menu">
+       <ul class="ul">
+           <li ><a href="#sec1" class="a1" id="f1">hello.</a></li>
+           <li ><a href="#sec2" class="a1" id="f1">about me</a></li>
+           <li ><a href="#sec3" class="a1" id="f1">my projects</a></li>
+           <li ><a href="#sec4" class="a1" id="f1">follow me</a></li>
+       </ul>
+   </nav>
+    <section class="section1" id="sec1">
+         <div class="content">
+			<div class="content__container">
+				<p class="content__container__text">
+					hello. i am
+				</p>
+				<ul class="content__container__list">
+					<li class="content__container__list__item1">悪魔の狼</li>
+					<li class="content__container__list__item2">destroiyer_</li>
+					<li class="content__container__list__item3">RE_W</li>
+					<li class="content__container__list__item4">galeksiy</li>
+				</ul>
+			</div>
+		</div>
+    </section>
+     <section class="section2" id="sec2">
+         <div class="seccontent">
+            <div class="divimg">
+                 <img src="/img/red%20head.jpg" alt="" class="imgred">
+             </div>
+             <div class="textbio">
+                 <h1 class="h1">What`s up?</h1>
+                 <p class="bio">My real name is Bogdan. I am 17 years old. Web-designer. I like to take pictures. I also admire music ... from time to time ... what?</p>
+             </div>
+         </div>
+     </section>
+      <section class="section3" id="sec3">
+          <div class="seccontent1">
+              <div class="dg"> 
+                 <h2 class="ss2">DG</h2>
+                  <div class="dgtext">
+                      <p class="hitext">
+                            I created an association of web designers to share experiences
+                             and more productive work
+                                 (lying,I just had nothing to do, so I created a group, LOL).
+                        </p>  
+                  </div>
+                     <div>
+                      <p class="webtext">
+                        Websites that we have already made and for which we apologize.
+                        </p>
+                  </div>
+              </div>   
+              <div class="wp" >
+                    <h2 class="ss">WP</h2>
+                  <div class="wptext">
+                      <p class="wp2">I created a channel in Telegram, where I publish packs of wallpaper on a computer and phone.Pretty cool wallpaper do, check.</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+       <section class="section4"id="sec4">
+            <div class="seccontent2">
+             <div class="tex">
+                 <p>Follow me</p>
+             </div>
+             <div class="con">
+              <div class="tumblr">
+                  <a href="https://wallpaper49.tumblr.com/">
+                      <img src="/img/tumblr-letter-logo-outline-in-a-rounded-square.png" alt="" id="imgh">
+                  
+                  </a>
+
+                  <div class="ellipse"></div>
+
+              </div>
+              <div class="instagram">
+                  <a href="https://www.instagram.com/destroiyer_/?hl=uk">
+                      <img src="/img/instagram-logo.png" alt="" id="imgh">
+                  </a>
+
+                  <div class="ellipse"></div>
+
+              </div>
+              <div class="telegram">
+                  <a href="https://web.telegram.org/#/im">
+                      <img src="/img/%D0%B52.png" alt=""  id="imgh">
+                  </a>
+   
+                  <div class="ellipse"></div>
+
+              </div>
+          </div>
+           </div>
+       </section>
+       <footer>
+           <p class="psfoteer">@DG</p>
+       </footer>
+</body>
+</html>
