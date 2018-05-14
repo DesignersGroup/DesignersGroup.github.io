@@ -378,4 +378,7 @@ footer
 {
     padding-top: 5%;
 }
-  html { overflow:  hidden; }
+  html
+{
+	overflow-y:  hidden;
+}
